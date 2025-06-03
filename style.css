@@ -1,0 +1,51 @@
+body {
+    font-family: Georgia, serif;
+    background: #823108;
+    background: linear-gradient(180deg, rgba(130, 49, 8, 0.36) 0%, rgba(253, 29, 29, 0.14) 64%, rgba(252, 176, 69, 0.2) 91%);
+    color: #333;
+    line-height: 1.6;
+    margin: 40px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1, h2 {
+    text-align: center;
+}
+body {
+    white-space: pre-line;
+}
+.epigrafe {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+.verso-spiegazione-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+    position: relative;
+}
+.spiegazione {
+    position: fixed;
+    left: 25%;
+    top: 87.8%;
+    width: 50%;
+    background-color: #ffe4c4;
+    color: #333;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.98em;
+    text-align: justify;
+    justify-content: center;
+    text-transform: capitalize;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border: black solid 1px;
+}
+
+.interagibili{
+    cursor: pointer;
+    background-color: yellow;
+}
